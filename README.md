@@ -1,7 +1,7 @@
 # FuelManager
 | Version | Downloads | License |
 | :---: | :---: | :---: |
-| ![GitHub release (with filter)](https://img.shields.io/github/v/release/Dm1tRancient/FuelManager) | ![GitHub all releases](https://img.shields.io/github/downloads/Dm1tRancient/FuelManager/total) | ![GitHub](https://img.shields.io/github/license/Dm1tRancient/FuelManager) |
+| ![GitHub release (with filter)](https://img.shields.io/github/v/release/Dm1tRancient/FuelManager) | ![GitHub all releases](https://img.shields.io/github/downloads/Dm1tRancient/FuelManager/latest/total) | ![GitHub](https://img.shields.io/github/license/Dm1tRancient/FuelManager) |
 
 This mod completely replaces [Better-Fuel-Management](https://github.com/ds5678/Better-Fuel-Management) by [ds5678](https://github.com/ds5678).
 
