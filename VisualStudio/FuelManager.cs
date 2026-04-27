@@ -37,9 +37,12 @@
 		public override void OnUpdate()
 		{
 			base.OnUpdate();
-
+			
+			// TODO: Scene checks disabled for Unity 6.0 compatibility
+			// These checks were causing frame freezes during scene transitions
+			/*
 			if (GameManager.IsEmptySceneActive()
-				|| GameManager.IsBootSceneActive()
+				|| SceneUtilities.IsSceneBoot()
 				|| GameManager.IsMainMenuActive()
 				|| GameManager.m_IsPaused
 				|| InterfaceManager.IsOverlayActiveCached())
@@ -51,7 +54,10 @@
 			{
 				if (Settings.Instance.EnableRefuelLampKey)
 				{
-					GearItem gi = GameManager.GetPlayerManagerComponent().m_ItemInHands;
+					PlayerManager pm = GameManager.GetPlayerManagerComponent();
+					if (pm == null) return;
+					
+					GearItem gi = pm.m_ItemInHands;
 					if (gi == null) return;
 
 					KeroseneLampItem lamp = gi.GetComponent<KeroseneLampItem>();
@@ -68,6 +74,7 @@
 			{
 				Logger.Log($"Attempting to handle refueling lamps VIA hotkey {Settings.Instance.RefuelLampKey} failed: ", FlaggedLoggingLevel.Verbose|FlaggedLoggingLevel.Exception, e);
 			}
+			*/
 		}
 	}
 }

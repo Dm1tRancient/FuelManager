@@ -1,0 +1,8 @@
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\bin\Debug\net6.0\FuelManager.deps.json
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\bin\Debug\net6.0\FuelManager.dll
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\obj\Debug\net6.0\FuelManager.csproj.AssemblyReference.cache
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\obj\Debug\net6.0\FuelManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\obj\Debug\net6.0\FuelManager.csproj.CoreCompileInputs.cache
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\obj\Debug\net6.0\FuelManager.dll
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\obj\Debug\net6.0\refint\FuelManager.dll
+C:\Users\Test\Downloads\FuelManager-main\FuelManager-main\VisualStudio\obj\Debug\net6.0\ref\FuelManager.dll

@@ -36,27 +36,27 @@ namespace FuelManager
 
 			if (result > 0)
 			{
-				Main.Logger.Log($"Mod not installed properly! Following lines will describe what is missing", FlaggedLoggingLevel.Critical, LoggingSubType.IntraSeparator);
+				Main.Logger.Log($"Mod not installed properly! Following lines will describe what is missing", FlaggedLoggingLevel.Warning);
 			}
 			if (!shared)
 			{
-				Main.Logger.Log($"Shared MC file is missing", FlaggedLoggingLevel.Critical);
+				Main.Logger.Log($"Shared MC file is missing", FlaggedLoggingLevel.Warning);
 			}
 			if (!@default && !GearAddon)
 			{
-				Main.Logger.Log($"Neither the default nor the ModdersGearToolbox MC was found", FlaggedLoggingLevel.Critical);
+				Main.Logger.Log($"Neither the default nor the ModdersGearToolbox MC was found", FlaggedLoggingLevel.Warning);
 			}
 			if (GearAddon && !gear)
 			{
-				Main.Logger.Log($"ModdersGearToolbox MC was found but the required mod is not installed!", FlaggedLoggingLevel.Critical);
+				Main.Logger.Log($"ModdersGearToolbox MC was found but the required mod is not installed!", FlaggedLoggingLevel.Warning);
 			}
 			if (gear && !GearAddon)
 			{
-				Main.Logger.Log($"AHandyToolbox MC was found but the ModdersGearToolbox MC is not installed. It is recommended to swap to this addon", FlaggedLoggingLevel.Warning);
+				Main.Logger.Log($"AHandyToolbox MC was found but the ModdersGearToolbox MC is not installed. It is recommended to swap to this addon", FlaggedLoggingLevel.Verbose);
 			}
 			if (result > 0)
 			{
-				Main.Logger.Log(FlaggedLoggingLevel.Critical, LoggingSubType.Separator);
+				Main.Logger.Log("Setup verification complete", FlaggedLoggingLevel.Debug);
 			}
 
 			return result == 0;

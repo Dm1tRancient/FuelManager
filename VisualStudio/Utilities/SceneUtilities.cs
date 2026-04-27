@@ -19,9 +19,9 @@
 
             if (sceneName.Contains("Boot", StringComparison.InvariantCultureIgnoreCase))
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
 
         public static bool IsSceneMenu(string? sceneName = null)
@@ -67,9 +67,9 @@
 
             if (sceneName.Contains("SANDBOX", StringComparison.InvariantCultureIgnoreCase))
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
 
         public static bool IsSceneDLC01(string? sceneName = null)
@@ -78,9 +78,9 @@
 
             if (sceneName.Contains("DLC01", StringComparison.InvariantCultureIgnoreCase))
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
 
         public static bool IsSceneDarkWalker(string? sceneName = null)
@@ -89,9 +89,9 @@
 
             if (sceneName.Contains("DARKWALKER", StringComparison.InvariantCultureIgnoreCase))
             {
-                return false;
+                return true;
             }
-            return true;
+            return false;
         }
 
         /// <summary>
