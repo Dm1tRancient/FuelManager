@@ -5,6 +5,8 @@
 
 This mod completely replaces [Better-Fuel-Management](https://github.com/ds5678/Better-Fuel-Management) by [ds5678](https://github.com/ds5678).
 
+## This fork fixes spam in the Melon loader and freezes between locations.
+
 ## Features
 * Fuel containers do not automatically vanish when they are empty.
 * Fuel containers do not automatically appear when they are needed.
@@ -27,10 +29,7 @@ This mod completely replaces [Better-Fuel-Management](https://github.com/ds5678/
 
 ### Requirements
 * [KeyboardUtilities](https://github.com/ds5678/KeyboardUtilities/releases/latest)
-* [LocalizationUtilities](https://github.com/dommrogers/LocalizationUtilities/releases/latest)
-* [CraftingRevisions](https://github.com/dommrogers/CraftingRevisions/release/latest)
 * [ModSettings](https://github.com/zeobviouslyfakeacc/ModSettings/releases/latest)
-* [GearSpawner](https://github.com/dommrogers/GearSpawner/releases/latest)
 * [ModComponent](https://github.com/dommrogers/ModComponent/releases/latest)
 <!--* [RadialMenuUtilities](https://github.com/Arkhorse/RadialMenuUtilities/releases/latest)-->
 
